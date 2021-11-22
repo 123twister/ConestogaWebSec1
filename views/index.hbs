@@ -1,2 +1,242 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!DOCTYPE html>
+<html lang="en">
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.mylogo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-color: #ffffff;
+}
+
+.fa-github {
+  background: #39dd41;
+  color: white;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+   width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <div class="w3-container">
+      <center><img class="mylogo" src="http://localhost:3000/images/boy.png"></center>
+      <h3><center><b>Jay Kaushal</b></center></h3>
+  </div>
+  <div class="w3-bar-block" style="margin-top: 30px;">
+    <a href="#" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#about" class="w3-bar-item w3-button w3-hover-white">About</a> 
+    <a href="#projects" class="w3-bar-item w3-button w3-hover-white">Projects</a> 
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="/feedback" class="w3-bar-item w3-button w3-hover-white">Feedback</a>
+
+  </div>
+  <center><div>
+     <a href="https://github.com/123twister" target="_blank" class="fa fa-github"></a>
+     <a href="https://www.linkedin.com/in/jay-kaushal" target="_blank" class="fa fa-linkedin"></a>
+  </div></center>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" >
+    <h1 class="w3-jumbo"><b>Portfolio</b></h1>
+  </div>
+
+  <!-- About -->
+  <div class="w3-container" id="about" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>About.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h3>Currently completing my Mobile Solutions Development course from Conestoga College.</h3>
+    <ul>
+        <li> I have completed my Bachelor degree in Computer engineering from Terna Engineering College, Navi Mumbai, India</li>
+        <li>Worked in multiple companies as an intern and worked as part timer with the designation of iOS App Developer</li>
+        <li>Created multiple applications, secured 2nd place in Terna Engineering College for Technical Fest</li>
+        <li>Hands-on experience in Swift, JAVA, HTML, CSS, APIs handling, JSON handling, Firebase, Google SDKs, COCOAPODs for integrating third party libraries in Swift programming, UI/UX</li>
+        <li>Also worked as a full time iOS Developer</li>
+    </ul>  
+  </div>
+  
+  <!-- Projects -->
+  <div class="w3-container" id="projects" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Projects.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <h3>Check Out My Work</h3>
+    <p>The projects below are done by myself while I was completing my Bachelors in Computer Engineering.
+      I have done multiple internships, worked in companies as an intern while I was completing my studies.
+    </p>
+  </div>
+
+  <div class="w3-row-padding">
+
+    <div class="w3-col m4 w3-margin-bottom" >
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/VIR.png" alt="VIR" style="width:100%">
+        <div class="w3-container">
+          <h3>VIR</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>This is an eCommerece application that I built for a company.</p>
+          <a href="https://apps.apple.com/ca/app/vir-kw/id1552623289">Live Application</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/News.jpg" alt="News" style="width:100%">
+        <div class="w3-container">
+          <h3>News</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>This is a news application that I built with the help of News API from <a href="https://newsapi.org/">NEWS</a></p>
+          <a href="https://github.com/123twister/News">Full Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/Calculator.jpg" alt="Conversion Calculator" style="width:100%">
+        <div class="w3-container">
+          <h3>Conversion Calculator</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>This is a unit conversion calculator application, you can find the full code here.</p>
+          <a href="https://github.com/123twister/Finally67">Full Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/webrtc.png" alt="Video Conferencing Website" style="width:100%">
+        <div class="w3-container">
+          <h3>Video Conferencing Website</h3>
+          <p class="w3-opacity">WebRTC</p>
+          <p>This was my final year project where we have to built a website for conferencing. Here we used <a href="https://socket.io/">SOCKET.io</a> for making all the possible connections that helps for a proper real time communication. Also, this project is hosted on Heroku.</p>
+          <a href="https://github.com/123twister/webrtc">Full Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/ugood.jpg" alt="uGOOD" style="width:100%">
+        <div class="w3-container">
+          <h3>uGOOD</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>This is a simple security application.</p>
+          <a href="https://github.com/123twister/YouGood">Full Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/coin.jpg" alt="Coin Catalogue" style="width:100%">
+        <div class="w3-container">
+          <h3>Coin Catalogue</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>A coin catalogue app where users can save the data of all the ancient coin in one app, and with the help of Core data it becomes more easy for each user to save and access data whenever they require.</p>
+          <a href="https://github.com/123twister/Coin-Catalogue">Full Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/nagar.png" alt="NagarPalika" style="width:100%">
+        <div class="w3-container">
+          <h3>NagarPalika Bulao</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>I came up with this idea for solving critical issues like uneven road, huge potholes, etc. To overcome this issue in simpler and faster way, I made an application where any user with their live location can take pictures and write a post of what exactly is an issue and this will directly update the database of BMC in India.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/tenant.png" alt="Tenant" style="width:100%">
+        <div class="w3-container">
+          <h3>Tenant</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>This is a rental application with unique UI design for better understanding for every users.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="http://localhost:3000/images/worldtech.png" alt="WorldTect" style="width:100%">
+        <div class="w3-container">
+          <h3>WorldTech IT</h3>
+          <p class="w3-opacity">iOS Application</p>
+          <p>This application handles the projects that the clients want from a company, so this app handles everything like the payment history, receipts, and many more with customized pdfs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+    <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Don't miss to contact me for more information, kindly fill the form below.</p>
+    <form>
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+</div>
+
+<!-- Footer -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+   <center><div>
+     <a href="https://github.com/123twister" target="_blank" class="fa fa-github"></a>
+     <a href="https://www.linkedin.com/in/jay-kaushal" target="_blank" class="fa fa-linkedin"></a>
+  </div></center>
+    <p class="w3-right"> ©2021 by Jay Kaushal </p>
+</div>
+
+</body>
+</html>
